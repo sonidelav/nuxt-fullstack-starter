@@ -1,5 +1,5 @@
 <template>
-    <b-carousel :interval="10000" controls class="full-carousel">
+    <b-carousel :interval="10000" class="full-carousel">
         <b-carousel-slide img-src="~/static/photos/slider.jpg"/>
     </b-carousel>
 </template>

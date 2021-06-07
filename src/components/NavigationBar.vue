@@ -1,5 +1,5 @@
 <template>
-    <b-navbar toggleable="lg" variant="transparent" fixed="top" type="dark" class="navigation-bar">
+    <b-navbar toggleable="lg" variant="transparent-dark" fixed="top" type="dark" class="navigation-bar">
         <b-navbar-brand>
             Fullstack Web Page
             <small class="sub-brand">Nuxt + NestJS</small>
@@ -9,7 +9,7 @@
             <!-- Right aligned nav items -->
             <b-navbar-nav class="ml-auto">
                 <b-nav-item>Welcome</b-nav-item>
-                <b-nav-item-dropdown text="Lang" right>
+                <b-nav-item-dropdown text="Lang" right class="lang-dropdown">
                     <b-dropdown-item href="#">EN</b-dropdown-item>
                     <b-dropdown-item href="#">EL</b-dropdown-item>
                 </b-nav-item-dropdown>
@@ -27,7 +27,6 @@ export default {
 <style lang="scss" scoped>
 @import "src/assets/parts/variables";
 .navigation-bar::v-deep {
-    padding: 20px 50px 0 50px;
 
     .navbar-brand {
         text-align: center;
@@ -47,7 +46,9 @@ export default {
     .navbar-nav {
         .nav-item {
             padding: 8px 20px;
-            @include text-shadow($black);
+            & > a {
+                @include text-shadow($black);
+            }
         }
     }
 }

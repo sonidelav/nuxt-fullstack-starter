@@ -1,23 +1,23 @@
 
 // Grid
 $grid-breakpoints: (
-        xs: 0,
-        sm: 480px,
-        md: 640px,
-        lg: 992px,
-        xl: 1300px,
-        xxl: 1980px
+    xs: 0,
+    sm: 480px,
+    md: 640px,
+    lg: 992px,
+    xl: 1300px,
+    xxl: 1980px
 );
 // Gutters
 $grid-gutter-width: 30px;
 
 // Containers
 $container-max-widths: (
-        sm: 540px,
-        md: 720px,
-        lg: 960px,
-        xl: 1140px,
-        xxl: 1980px
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1980px
 );
 
 // Setups
@@ -41,8 +41,9 @@ $black: #000 !default;
 
 // Theme colors
 $theme-colors: (
-        'primary' : #58b8b8,
-        'transparent': #00000000
+    'primary' : #58b8b8,
+    'transparent': #00000000,
+    'transparent-dark': rgba(0, 0, 0, 0.5)
 );
 
 // Body
