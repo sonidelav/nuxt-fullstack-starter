@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-landpage-starter",
+  "name": "nuxt-fullstack-starter",
   "version": "1.0.0",
   "description": "Nuxt Starter Template with Nest as Middleware for Full stack webpage development",
-  "repository": "",
+  "repository": "https://github.com/sonidelav/nuxt-fullstack-starter.git",
   "author": "Valentinos Galanos <sonidelav@hotmail.com>",
   "license": "MIT",
   "private": true,
