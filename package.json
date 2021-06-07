@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-landpage-starter",
+  "version": "1.0.0",
+  "description": "Nuxt Starter Template with Nest as Middleware for Full stack webpage development",
+  "repository": "",
+  "author": "Valentinos Galanos <sonidelav@hotmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start"
+  },
+  "dependencies": {
+    "@nestjs/common": "^7.5.5",
+    "@nestjs/core": "^7.5.5",
+    "@nestjs/platform-express": "^7.5.5",
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "bootstrap-vue": "^2.20.1",
+    "express": "^4.17.1",
+    "nuxt": "^2.14.9",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.9",
+    "@nuxt/typescript-build": "^2.0.3",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0"
+  }
+}

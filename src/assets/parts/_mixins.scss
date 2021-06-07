@@ -1,0 +1,31 @@
+
+@mixin text-shadow($color) {
+    text-shadow: 1px 1px 2px $color;
+}
+
+@mixin flex-contents($direction: column nowrap, $justify: center, $align: center) {
+    display: flex;
+    flex-flow: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin margin-x($amount: 10px) {
+    margin-left: $amount;
+    margin-right: $amount
+}
+
+@mixin margin-y($amount: 10px) {
+    margin-top: $amount;
+    margin-bottom: $amount;
+}
+
+@mixin padding-x($amount: 10px) {
+    padding-left: $amount;
+    padding-right: $amount;
+}
+
+@mixin padding-y($amount: 10px) {
+    padding-top: $amount;
+    padding-bottom: $amount;
+}

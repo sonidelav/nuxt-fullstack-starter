@@ -1,0 +1,70 @@
+
+// Grid
+$grid-breakpoints: (
+        xs: 0,
+        sm: 480px,
+        md: 640px,
+        lg: 992px,
+        xl: 1300px,
+        xxl: 1980px
+);
+// Gutters
+$grid-gutter-width: 30px;
+
+// Containers
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px,
+        xxl: 1980px
+);
+
+// Setups
+$enable-rounded: false;
+$enable-shadows: false;
+$enable-responsive-font-sizes: true;
+$enable-deprecation-messages: false;
+
+// Grayscale
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+// Theme colors
+$theme-colors: (
+        'primary' : #58b8b8,
+        'transparent': #00000000
+);
+
+// Body
+$body-bg: $gray-200;
+$body-color: $gray-800;
+
+// Fonts
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+// Custom Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,700,800&subset=greek,latin');
+$font-family-open-sans: 'Open Sans', $font-family-sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+$font-family-dancing-script: 'Dancing Script', $font-family-sans-serif;
+
+// Base
+$font-family-base: $font-family-open-sans;
+
+// Bootstrap Variables;
+@import "~bootstrap/scss/functions";
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import 'mixins';
