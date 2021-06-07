@@ -30,7 +30,7 @@ export default {
 
     .navbar-brand {
         text-align: center;
-        font-family: $font-family-dancing-script;
+        font-family: $font-family-base;
         font-size: 32pt;
 
         .sub-brand {
@@ -47,6 +47,7 @@ export default {
         .nav-item {
             padding: 8px 20px;
             & > a {
+                color: $white;
                 @include text-shadow($black);
             }
         }
