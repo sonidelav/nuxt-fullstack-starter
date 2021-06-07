@@ -55,14 +55,11 @@ $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 // Custom Fonts
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,700,800&subset=greek,latin');
-$font-family-open-sans: 'Open Sans', $font-family-sans-serif;
-
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
-$font-family-dancing-script: 'Dancing Script', $font-family-sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,700,800&subset=greek,latin');
+$font-family-roboto: 'Roboto', $font-family-sans-serif;
 
 // Base
-$font-family-base: $font-family-open-sans;
+$font-family-base: $font-family-roboto;
 
 // Bootstrap Variables;
 @import "~bootstrap/scss/functions";
